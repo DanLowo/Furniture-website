@@ -1,0 +1,155 @@
+@media screen and (max-width: 550px) {
+
+    /* jumbotron */
+
+    .jumbotron {
+        height: 60vh;
+    }
+
+    .jumbotron nav {
+        padding: 20px 20px;
+    }
+
+    .jumbotron nav .nav-links {
+        display: none;
+    }
+
+    .jumbotron .main {
+        padding: 0;
+        padding-top: 30px;
+        /* margin-bottom: 300px; */
+        grid-template-columns: 1fr;
+    }
+
+    .jumbotron .main h1 {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .jumbotron .main .sub-title {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .jumbotron .main .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jumbotron .main img {
+        bottom: 0;
+        top: 20px;
+        height: 50%;
+        
+    }
+
+    .jumbotron .main button#only-mobile {
+        margin: 20px 0;
+    }
+
+    .our-products {
+        margin-top: 70px;
+        grid-template-columns: 1fr;
+    }
+
+    .our-products .category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .our-products.with-tab {
+        margin-top: -100px;
+        display: block;
+    }
+
+    .tab-and-product {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+
+
+
+    /* Utilities */
+    div.container {
+        padding: 200px 30px;
+    }
+
+    div.container.no-padding-vertical {
+        padding: 0 30px !important;
+    }
+
+    #only-desktop {
+        display: none;
+    }
+
+    #only-mobile {
+        display: block;
+    }
+
+    div.category h1 {
+        font-size: 25px;
+        color: var(--dark-color);
+    }
+    
+    div.category p {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: var(--gray-color);
+    }
+
+    div.product-item {
+        height: 320px;
+    }
+
+    div.product-item .name {
+        color: var(--dark-color);
+        font-size: 18px;
+    }
+
+    .product-details .price {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .product-details .about {
+        font-size: 13px;
+    }
+
+
+    /* Review */
+    .review {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    /* Footer */
+    footer div.container {
+        grid-template-columns: 1fr;
+    }
+
+    .company-name-and-location {
+        align-items: center;
+        text-align: center;
+        height: 30vh;
+    }
+
+    .links-and-contact {
+        height: 25vh;
+        gap: 20px;
+    }
+
+    .social-media {
+        height: 20vh;
+    }
+}
