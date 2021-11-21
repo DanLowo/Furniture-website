@@ -228,12 +228,20 @@ footer div.container {
     margin-right: 15px;
 }
 
-footer h4#danlowo {
-    text-align: center;
-    padding-bottom: 15px;
+footer .credits {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
 }
 
-footer h4#danlowo a {
+footer h3#credit-header {
+    text-align: center;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+}
+
+footer h4 a {
     color: var(--dark-color);
     text-decoration: underline;
 }
