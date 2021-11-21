@@ -228,10 +228,14 @@ footer div.container {
     margin-right: 15px;
 }
 
-footer h4 {
+footer h4#danlowo {
     text-align: center;
     padding-bottom: 15px;
+}
+
+footer h4#danlowo a {
     color: var(--dark-color);
+    text-decoration: underline;
 }
 
 
