@@ -131,6 +131,18 @@
         grid-template-columns: 1fr;
     }
 
+    .review .content .quote .design {
+        display: none;
+    }
+
+    .review .content .quote .text {
+        position: static;
+    }
+
+    .review .content .quote h4 {
+        position: static;
+        margin-top: 10px;
+    }
 
 
     /* Footer */
@@ -141,15 +153,16 @@
     .company-name-and-location {
         align-items: center;
         text-align: center;
-        height: 30vh;
+        height: 35vh;
     }
 
     .links-and-contact {
-        height: 25vh;
+        height: 30vh;
         gap: 20px;
     }
 
     .social-media {
-        height: 20vh;
+        height: 25vh;
     }
+
 }
